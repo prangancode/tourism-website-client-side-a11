@@ -4,7 +4,7 @@ import ManageAllBookingStyle from './ManageAllBookingStyle';
 const ManageAllBookings = () => {
     const [allBookings, setAllBookings] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/submitbookings')
+        fetch('https://vast-oasis-93668.herokuapp.com/submitbookings')
             .then(res => res.json())
             .then(data => {
                 console.log(data);

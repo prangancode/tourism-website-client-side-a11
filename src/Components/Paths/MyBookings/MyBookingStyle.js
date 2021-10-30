@@ -10,7 +10,7 @@ const MyBookingStyle = (props) => {
 
         console.log(id);
         if (proceed) {
-            fetch(`http://localhost:5000/submitbookings/${id}`, {
+            fetch(`https://vast-oasis-93668.herokuapp.com/submitbookings/${id}`, {
                 method: 'DELETE',
                 headers: {
                     "content-type": "application/json"

@@ -6,7 +6,7 @@ const AddNewBooking = () => {
 
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = (data) => {
-        fetch("http://localhost:5000/bookings", {
+        fetch("https://vast-oasis-93668.herokuapp.com/bookings", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),
