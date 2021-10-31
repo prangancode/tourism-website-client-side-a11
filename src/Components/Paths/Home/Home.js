@@ -15,9 +15,11 @@ const Home = () => {
 
                 <div className='flex-col self-center sm:pt-1.5 sm:w-11/12 w-1/3'>
                     <h1 className='font-bold text-5xl'>Your <span className='hover:text-green-600 text-blue-600'>Journey</span> Begins</h1>
-                    <p className='mt-10 text-2xl'>A modern and beautiful WordPress theme for all kinds of travel and tourism busines. WordPress theme for all kinds of travel and tourism.</p>
-                    <Link to='/doctor'> <button className="bg-white border border-gray-400 font-semibold hover:bg-blue-600 hover:text-white mt-16  px-4 py-2 rounded shadow text-gray-800 w-2/3 ">
-                        Doctors
+                    <p className='mt-10 text-2xl'>A modern and beautiful WordPress theme for all kinds of travel and tourism busines. WordPress theme for all kinds of travel and tourism.
+
+                    </p>
+                    <Link to='/about'> <button className=" transition delay-150 duration-300 ease-in-out bg-white  border border-gray-400 font-semibold hover:bg-green-500 hover:text-white mt-16  px-4 py-2 rounded shadow text-gray-800 w-2/3  ">
+                        About Us
                     </button>
                     </Link>
                 </div>
@@ -130,7 +132,7 @@ const Home = () => {
                 </div>
             </div>
             {/* Join Our Newsletter */}
-            <div className='bg-gray-100 lg:flex lg:flex-row justify-evenly sm:m-4 lg:m-12 p-10 rounded-3xl sm:flex-col-reverse sm:flex'>
+            <div className='bg-gray-100 lg:flex lg:flex-row justify-evenly m-12 p-10 rounded-3xl sm:flex-col-reverse sm:flex'>
 
                 <div className='flex flex-col self-center sm:pt-5 sm:text-center lg:text-left sm:w-11/12 w-1/3'>
                     <h1 className='font-bold text-5xl'>Join <span className='hover:text-green-600 text-blue-600'>Our </span>Newsletter</h1>
