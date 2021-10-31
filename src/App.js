@@ -27,12 +27,12 @@ function App() {
             <Route path="/mybookings">
               <MyBookings></MyBookings>
             </Route>
-            <Route path="/manageallbookings">
+            <PrivateRoute path="/manageallbookings">
               <ManageAllBookings></ManageAllBookings>
-            </Route>
-            <Route path="/addnewbooking">
+            </PrivateRoute>
+            <PrivateRoute path="/addnewbooking">
               <AddNewBooking></AddNewBooking>
-            </Route>
+            </PrivateRoute>
             <Route exact path="/">
               <Home></Home>
             </Route>

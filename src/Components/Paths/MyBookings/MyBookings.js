@@ -29,7 +29,7 @@ const MyBookings = () => {
             <div>
                 {
                     myBookings.length === 0 ?
-                        <div className="flex items-center justify-center space-x-2 animate-bounce mt-28">
+                        <div className="flex items-center justify-center space-x-2 animate-bounce mt-14 mb-5">
                             <div className="w-8 h-8 bg-blue-400 rounded-full"></div>
                             <div className="w-8 h-8 bg-green-400 rounded-full"></div>
                             <div className="w-8 h-8 bg-black rounded-full"></div>

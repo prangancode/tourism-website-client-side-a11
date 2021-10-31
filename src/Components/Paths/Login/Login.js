@@ -41,7 +41,7 @@ const Login = () => {
     return (
         <div>
             <div className="bg-gray-200 flex items-center justify-center min-h-screen lg:p-10 sm:p-0">
-                <div className="bg-white p-16 rounded shadow-lg sm:w-11/12 lg:w-2/3">
+                <div className="bg-white border-4 border-green-700 sm:p-5 lg:p-24 rounded-2xl shadow-lg sm:w-11/12 lg:w-2/3">
 
                     {user.email && toggle && <p className='border-b-2 border-blue-300 font-bold mb-10 mx-auto pb-11 text-4xl text-center text-green-400 w-1/2'>Registration Successful</p>}
 
