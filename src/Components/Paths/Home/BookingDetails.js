@@ -61,7 +61,7 @@ const BookingDetails = () => {
                             </div>
                             <div>
                                 <h1 className='sm:w-max border-b-2 font-semibold mx-auto pb-5 text-3xl w-1/3 border-blue-400 text-white'> {bookingDetails?.booking_name}</h1>
-                                <h2 className='mx-auto sm:font-semibold sm:pt-5 sm:text-2xl sm:text-justify sm:w-5/6 text-3xl w-1/2 text-white'> {bookingDetails?.details_description}</h2>
+                                <h2 className='mx-auto sm:font-semibold sm:pt-5 sm:text-xl sm:text-justify sm:w-5/6 text-2xl w-1/2 text-white font-mono'> {bookingDetails?.details_description}</h2>
                             </div>
                         </div>
 
@@ -71,18 +71,18 @@ const BookingDetails = () => {
 
                 </div>
                 <div className='col-span-1 lg:mt-72 sm:mt-10 sm:mx-auto'>
-                    <h2 className='font-black italic text-3xl underline text-white sm:text-center'>Confirm Your Booking</h2>
+                    <h2 className=' italic text-3xl underline text-white sm:text-center'>Confirm Your Booking</h2>
                     <form className="booking-form flex flex-col  py-10 space-y-5" onSubmit={handleSubmit(onSubmit)}>
 
-                        <input className='outline-none border-2 rounded p-3 font-black text-2xl' defaultValue={user.displayName} {...register("name")} />
+                        <input className='outline-none border-2 rounded p-3  text-xl' defaultValue={user.displayName} {...register("name")} />
 
-                        <input className='outline-none border-2 rounded p-3 font-black text-2xl' defaultValue={user.email} {...register("email", { required: true })} />
+                        <input className='outline-none border-2 rounded p-3  text-xl' defaultValue={user.email} {...register("email", { required: true })} />
                         {/* {errors.email && <span className="error">This field is required</span>} */}
-                        <input className='outline-none border-2 rounded p-3 font-black text-2xl' placeholder="Address" defaultValue="" {...register("address")} />
-                        <input className='outline-none border-2 rounded p-3 font-black text-2xl' placeholder="City" defaultValue="" {...register("city")} />
-                        <input className='outline-none border-2 rounded p-3 font-black text-2xl' placeholder="phone number" defaultValue="" {...register("phone")} />
+                        <input className='outline-none border-2 rounded p-3  text-xl' placeholder="Address" defaultValue="" {...register("address")} />
+                        <input className='outline-none border-2 rounded p-3  text-xl' placeholder="City" defaultValue="" {...register("city")} />
+                        <input className='outline-none border-2 rounded p-3  text-xl' placeholder="Phone number" defaultValue="" {...register("phone")} />
 
-                        <input className='border-2 hover:bg-green-400 hover:text-white p-3 ring-2 ring-gray-300 rounded text-gray-500 text-2xl font-black' type="submit" />
+                        <input className='w-1/3  mx-auto border-1 bg-indigo-600 hover:bg-yellow-400 hover:text-white p-1 ring-2 ring-white rounded-full text-white text-xl font-semibold' type="submit" />
                     </form>
                 </div>
             </div>

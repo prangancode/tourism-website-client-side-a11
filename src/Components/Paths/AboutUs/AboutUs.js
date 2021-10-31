@@ -11,7 +11,7 @@ const AboutUs = () => {
 
                     <h2 className='font-bold text-green-900 text-5xl'>Explore Travelling With Us</h2>
 
-                    <p className='font-mono text-xl text-green-400 sm:py-5 lg:py-0'>We’re impartial and independent, and every day we create distinctive, world-class programmes and content which inform, educate and entertain millions of people in the around the world.Regardless of your situation, we can help you exit your comfort zone, like we’ve done for other people. Hear what some of them have to say:</p>
+                    <p className='font-mono text-xl text-yellow-500 sm:py-5 lg:py-0'>We’re impartial and independent, and every day we create distinctive, world-class programmes and content which inform, educate and entertain millions of people in the around the world.Regardless of your situation, we can help you exit your comfort zone, like we’ve done for other people. Hear what some of them have to say:</p>
                     <ul className='font-semibold text-green-800 space-y-2.5 text-2xl'>
 
 

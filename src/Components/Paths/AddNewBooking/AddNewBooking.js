@@ -38,7 +38,7 @@ const AddNewBooking = () => {
 
                     <input className='outline-none border-2 rounded-2xl p-3 text-xl' placeholder="Booking Place Name" defaultValue="" {...register("booking_name")} />
                     <input className='outline-none border-2 rounded-2xl p-3 text-xl' placeholder="Description" defaultValue="" {...register("description")} />
-                    <textarea className='border-2 p-3 outline-none border-2 rounded-2xl p-3 text-xl' rows='5' cols='45' placeholder="Details Description" defaultValue="" {...register("details_description")} />
+                    <textarea className=' outline-none border-2 rounded-2xl p-3 text-xl' rows='5' cols='45' placeholder="Details Description" defaultValue="" {...register("details_description")} />
                     <input className='outline-none border-2 rounded-2xl p-3 text-xl' placeholder="Image URL" defaultValue="" {...register("img_url")} />
                     <input className='outline-none border-2 rounded-2xl p-3 text-xl' placeholder="Per Person Cost" defaultValue="" {...register("per_person_cost")} />
                     <input className='outline-none border-2 rounded-2xl p-3 text-xl' placeholder="Package Duration" defaultValue="" {...register("duration")} />

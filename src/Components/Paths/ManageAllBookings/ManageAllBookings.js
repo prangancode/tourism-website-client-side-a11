@@ -61,6 +61,7 @@ const ManageAllBookings = () => {
             </div> */}
             <div>
                 {/* <!-- component --> */}
+                <h2 className="text-3xl text-center text-bold p-3 italic text-green-800">All Bookings</h2>
                 <div className="text-gray-900 bg-gray-200 sm:p-5 lg:p-20">
 
                     <div className="wrapper px-3 py-4 flex justify-center">
