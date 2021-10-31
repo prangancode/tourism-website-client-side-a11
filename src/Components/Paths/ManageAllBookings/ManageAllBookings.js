@@ -61,7 +61,7 @@ const ManageAllBookings = () => {
             </div> */}
             <div>
                 {/* <!-- component --> */}
-                <div className="text-gray-900 bg-gray-200 p-20">
+                <div className="text-gray-900 bg-gray-200 sm:p-5 lg:p-20">
 
                     <div className="wrapper px-3 py-4 flex justify-center">
                         <table className="w-full text-md bg-white shadow-md rounded mb-4">

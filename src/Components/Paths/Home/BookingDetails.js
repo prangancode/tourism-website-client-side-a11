@@ -23,7 +23,7 @@ const BookingDetails = () => {
             .then((res) => res.json())
             .then((result) => {
                 if (result.insertedId) {
-                    alert("Confirmed Booking")
+                    alert("Your Booking is Confirmed")
                 }
                 console.log(result)
             });
